@@ -23,4 +23,4 @@ Slackのemojiページを開いて(例：https://kanonlove.slack.com/customize/e
 You visit slack custom emoji page(example: https://kanonlove.slack.com/customize/emoji ), and you find out strange "Save all emoji" button.
 You click it, you can download your team emoji files on zip.
 
-著作権表記は各種フォルダにLicenseファイル入ってるから問題ないはず？
+著作権表記は各種フォルダにLicenseファイル入ってるから問題ないはず？ ← よく見るとpackageの中身はadd gitignoreしない設定だった…
