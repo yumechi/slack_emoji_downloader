@@ -1,4 +1,21 @@
 # slack emoji download extension
+## デモ(demo)
+
+![demo](./demo/slackemojidl.gif)
+
+
+## インストール（install）
+
+https://github.com/yumechi/slack_emoji_downloader/raw/master/extension_zip/slack_emoji_dl.zip
+
+をダウンロードして解凍したあと、`chrome://extensions/` を開いて、フォルダごとドラッグアンドドロップして入れてください。（zipのままだと失敗します）
+
+You download extension zip file from upper link.
+So, you unzip the zip file and open `chrome://extensions/`.
+you drop that unziped folder to extensions page.
+warning: if you drop zip file, you get failed.
+
+
 ## 説明（README)
 
 Slackのemojiページを開いて(例：https://kanonlove.slack.com/customize/emoji )、"Save all emoji" という追加されているbuttonをクリックすると、全ての絵文字をzipでダウンロードします。
