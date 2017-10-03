@@ -1,0 +1,33 @@
+{
+  "name": "SlackEmojiDownloader",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "This plugin can download your team emoji files on zip.",
+  "icons": {
+    "16": "images/icon-16.png",
+    "128": "images/icon-128.png"
+  },
+  "default_locale": "en",
+  "background": {
+    "scripts": [
+      "scripts/chromereload.js",
+      "scripts/background.js"
+    ]
+  },
+  "permissions": [
+    "https://emoji.slack-edge.com/"
+  ],
+  "content_scripts": [
+      {
+          "matches": [
+              "https://*.slack.com/customize/emoji*"
+          ],
+          "js": [
+              "bower_components/jszip/dist/jszip.min.js",
+              "bower_components/file-saver/FileSaver.min.js",
+              "bower_components/jquery/dist/jquery.min.js",
+              "scripts/contentscript.js"
+          ]
+      }
+  ]
+}
