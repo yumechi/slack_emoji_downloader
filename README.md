@@ -1,3 +1,9 @@
+# お知らせ
+Slackページの作りが変わったので、うまく動作しなくなりました。
+というわけで、一旦開発を終了し、Archiveします。
+
+気が向いたら復帰します。
+
 # slack emoji download extension
 ## デモ(demo)
 
